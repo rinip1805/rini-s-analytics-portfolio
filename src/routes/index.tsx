@@ -66,6 +66,15 @@ function Index() {
         </div>
       </section>
 
+      <section className="mt-24">
+        <h2 className="text-3xl">Languages</h2>
+        <div className="mt-6 flex flex-wrap gap-3">
+          {["Malayalam", "English"].map((l) => (
+            <span key={l} className="rounded-full border bg-card px-5 py-2 text-lg">{l}</span>
+          ))}
+        </div>
+      </section>
+
       <section className="mt-24 rounded-lg bg-primary p-10 text-primary-foreground md:p-14">
         <h2 className="text-3xl md:text-4xl">Let's work together</h2>
         <p className="mt-3 opacity-80">Open to internships and entry-level data analyst roles.</p>
